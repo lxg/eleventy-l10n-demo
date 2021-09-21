@@ -1,0 +1,36 @@
+{
+    "name": "eleventy-l10n-demo",
+    "private": true,
+    "version": "0.1.0",
+    "description": "Demo for the eleventy-plugin-l10n",
+    "keywords": [
+        "eleventy",
+        "l10n",
+        "localization",
+        "translation",
+        "gettext"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lxg/eleventy-l10n-demo.git"
+    },
+    "author": "Alexander Günsche",
+    "license": "ISC",
+    "scripts": {
+        "dev": "ELEVENTY_ENV=development npx @11ty/eleventy --watch --serve --port=8081",
+        "build": "ELEVENTY_ENV=production npx @11ty/eleventy"
+    },
+    "dependencies": {
+        "@11ty/eleventy": "^0.12.1",
+        "@lxg/l10n": "^2.3.0",
+        "eleventy-plugin-l10n": "^0.1.1"
+    },
+    "l10n": {
+        "locales": [
+            "de-DE"
+        ],
+        "sources": [
+            "src/**/*.html"
+        ]
+    }
+}

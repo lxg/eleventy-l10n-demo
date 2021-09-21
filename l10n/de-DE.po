@@ -1,0 +1,13 @@
+msgid ""
+msgstr ""
+"Language: de_DE\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/pages/index.njk.html:0
+msgid "Hello World!"
+msgstr "Hallo Welt!"
+
+#: src/pages/index.njk.html:0
+msgid "Hello, beautiful world!"
+msgstr "Hallo, schöne Welt!"
